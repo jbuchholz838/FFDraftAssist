@@ -2,6 +2,11 @@
 
 A program designed to assist in fantasy football drafts. Uses a specially formatted excel document to load in the players and provides a way to track who has been drafted as well as roster needs for you and other teams.
 
+## Main Technologies
+- C# .Net 4.7.2
+- WPF
+- Infragistics
+
 ## Screenshots
 
 ##### Draft Center
