@@ -1,0 +1,182 @@
+﻿<UserControl x:Name="PlayerListControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             xmlns:ig="http://schemas.infragistics.com/xaml"
+             xmlns:igDP="http://infragistics.com/DataPresenter"
+             xmlns:igDP1="http://infragistics.com/Windows"
+             xmlns:igEditors="http://infragistics.com/Editors"	
+             x:Class="FFDraftAssist.PlayerList" 
+             xmlns:l="clr-namespace:FFDraftAssist"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             FontSize="14">
+    <UserControl.Resources>
+
+        <l:NumberEvenOddConverter x:Key="EvenOddConvert" />
+        <Style TargetType="{x:Type igDP:CellValuePresenter}">
+            <Setter Property="Background" Value="Red" />
+            <Setter Property="BorderBrush" Value="{x:Null}" />
+            <Setter Property="Margin" Value="0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="BorderThickness" Value="0" />
+        </Style>
+        <Style TargetType="{x:Type igDP:DataRecordCellArea}">
+            <Setter Property="Background" Value="{x:Null}"/>
+            <Setter Property="BackgroundHover" Value="{x:Null}"/>
+            <Setter Property="BackgroundSelected" Value="{x:Null}"/>
+            <Setter Property="BackgroundAlternate" Value="{x:Null}"/>
+            <Setter Property="BackgroundActive" Value="{x:Null}"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <!--<Setter Property="BorderBrush" Value="#FF5A5B5B"/>-->
+            <Setter Property="BorderSelectedBrush" Value="#FF00E8FF"/>
+            <Setter Property="BorderActiveBrush" Value="#FF00E8FF"/>
+            <Setter Property="BorderHoverBrush" Value="#FF00E8FF"/>
+            <Setter Property="BorderThickness" Value="3"/>
+
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.Tier, Converter={StaticResource EvenOddConvert}}" Value="Even">
+                    <Setter Property="Background" Value="#FFD8D3D3"/>
+                    <Setter Property="BorderBrush" Value="#FFD8D3D3"/>
+                    <Setter Property="TextBlock.Margin" Value="0"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.DraftStatus}" Value="Drafted">
+                    <Setter Property="Background" Value="Red"/>
+                    <!--<Setter Property="BackgroundHover" Value="Red"/>-->
+                    <Setter Property="BackgroundSelected" Value="#FFF94242"/>
+                    <Setter Property="BackgroundAlternate" Value="Red"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.DraftStatus}" Value="I Drafted">
+                    <Setter Property="Background" Value="#FF8747C7"/>
+                    <!--<Setter Property="BackgroundHover" Value="#FF8747C7"/>-->
+                    <Setter Property="BackgroundSelected" Value="#FFB278EC"/>
+                    <Setter Property="BackgroundAlternate" Value="#FF8747C7"/>
+                    <Setter Property="BackgroundActive" Value="#FFB278EC"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.TopAvailable}" Value="True">
+                    <Setter Property="Background" Value="#FFEBF33D"/>
+                    <Setter Property="BackgroundHover" Value="#FFEBF33D"/>
+                    <Setter Property="BackgroundSelected" Value="#FFF4FF00"/>
+                    <Setter Property="BackgroundAlternate" Value="#FFEBF33D"/>
+                    <Setter Property="BackgroundActive" Value="#FFEBF33D"/>
+                </DataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.DraftStrategy.Action}" Value="Ignore" />
+                        <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.DraftStatus}" Value="Available" />
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter Property="Background" Value="#FFFDA50A"/>
+                        <Setter Property="BackgroundHover" Value="#FFFDA50A"/>
+                        <Setter Property="BackgroundSelected" Value="#FFFDA50A"/>
+                        <Setter Property="BackgroundAlternate" Value="#FFFDA50A"/>
+                        <Setter Property="BackgroundActive" Value="#FFFDA50A"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.DraftStrategy.Action}" Value="Target" />
+                        <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=Record.DataItem.DraftStatus}" Value="Available" />
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter Property="Background" Value="#FF00FF68"/>
+                        <Setter Property="BackgroundHover" Value="#FF00FF68"/>
+                        <Setter Property="BackgroundSelected" Value="#FF00FF68"/>
+                        <Setter Property="BackgroundAlternate" Value="#FF00FF68"/>
+                        <Setter Property="BackgroundActive" Value="#FF00FF68"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="{x:Type igDP:CellValuePresenter}" x:Key="LargeFieldText">
+            <!--<Setter Property="FontSize" Value="14"/>-->
+        </Style>
+        <Style TargetType="{x:Type igDP:CellValuePresenter}" x:Key="CenterFieldText">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="{x:Type igDP:CellValuePresenter}" x:Key="CenterFieldTextBye">
+            <Style.Triggers>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding DataItem.SharesBye}" Value="True"/>
+                        <Condition Binding="{Binding DataItem.PickedBy}" Value="{x:Null}"/>
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter Property="Background" Value="Orange"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+            </Style.Triggers>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="GridHeaderStyle" TargetType="{x:Type igDP:HeaderLabelArea}">
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Margin" Value="0" />
+        </Style>
+        <Style TargetType="{x:Type igDP:LabelPresenter}" x:Key="LabelStyle">
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+        <Style TargetType="igDP:DataRecordPresenter">
+            <EventSetter Event="MouseDoubleClick" Handler="DataRecordPresenter_MouseDoubleClick" />
+            <Setter Property="ToolTip" >
+                <Setter.Value>
+                    <StackPanel >
+                        <TextBlock Text="{Binding DataItem.DraftStrategy.Note}" />
+                    </StackPanel>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <DockPanel x:Name="dockPanel">
+        <igDP:XamDataGrid x:Name="grdData" DataSource="{Binding CurrentDraft.Players}" HorizontalAlignment="Left"  VerticalAlignment="Top" DockPanel.Dock="Top" 
+                          Width="{Binding ActualWidth, ElementName=dockPanel, Mode=OneWay}" Height="{Binding ActualHeight, ElementName=dockPanel, Mode=OneWay}" 
+                          SelectedDataItemsScope="RecordsOnly" IsSynchronizedWithCurrentItem="True"  FontSize="{Binding FontSize, ElementName=PlayerListControl}" ScrollingMode="Immediate"
+                          SelectedItemsChanged="grdData_SelectedItemsChanged" RecordActivated="grdData_RecordActivated" Background="#FFB4B1B1" GroupByAreaLocation="None">
+            <igDP:XamDataGrid.Resources>
+                <Style TargetType="{x:Type ScrollBar}">
+                    <Style.Triggers>
+                        <Trigger Property="Orientation" Value="Vertical">
+                            <Setter Property="Width" Value="5"/>
+                            <Setter Property="MinWidth" Value="1"/>
+                        </Trigger>
+                        <Trigger Property="Orientation" Value="Horizontal">
+                            <Setter Property="Height" Value="10"/>
+                            <Setter Property="MinHeight" Value="1"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </igDP:XamDataGrid.Resources>
+            <igDP:XamDataGrid.FieldSettings>
+                <igDP:FieldSettings LabelPresenterStyle="{StaticResource LabelStyle}" AllowRecordFiltering="False" AllowGroupBy="False" AllowEdit="False" CellClickAction="SelectRecord" 
+                                    CellHeight="30" AllowResize="True"/>
+            </igDP:XamDataGrid.FieldSettings>
+            <igDP:XamDataGrid.FieldLayoutSettings>
+                <igDP:FieldLayoutSettings HeaderLabelAreaStyle="{StaticResource GridHeaderStyle}"  HighlightAlternateRecords="True" AutoGenerateFields="False" AllowAddNew="False" 
+                                          AllowDelete="False" FilterUIType="FilterRecord" AllowFieldMoving="No" RecordSelectorLocation="None" AutoFitMode="Always" />
+            </igDP:XamDataGrid.FieldLayoutSettings>
+            <igDP:XamDataGrid.FieldLayouts>
+                <igDP:FieldLayout x:Name="grdFieldLayout">
+
+                    <igDP:FieldLayout.SortedFields>
+                        <igDP:FieldSortDescription  IsGroupBy="False" Direction="Descending" FieldName="Value" />
+                    </igDP:FieldLayout.SortedFields>
+
+                    <igDP:Field  Name="PlayerName" Label="Player Name" Width="155" CellValuePresenterStyle="{StaticResource LargeFieldText}" />
+                    <igDP:Field  Name="Position" Label="Pos" Width="40" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Tag="Hide"/>
+                    <!--<igDP:Field  Name="StringNum" Label="#" Width="25" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Tag="Hide" />-->
+                    <igDP:Field  Name="TeamName" Label="#" Width="25" Visibility="Collapsed" CellValuePresenterStyle="{StaticResource CenterFieldText}" AlternateBinding="{Binding PickedBy.UserName}" LabelTextAlignment="Center" Tag="Hide" BindingType="UseAlternateBinding" />
+                    <igDP:Field  Name="Team" Label="Team" Width="45" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Tag="Hide"/>
+                    <igDP:Field  Name="Bye" Label="Bye" Width="38" CellValuePresenterStyle="{StaticResource CenterFieldTextBye}" LabelTextAlignment="Center" Tag="Hide" />
+                    <igDP:Field  Name="Rank" Label="ADP" Width="50" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Tag="Hide" />
+                    <!--<igDP:Field  Name="Performance" Label="Performance" Width="55" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" />-->
+                    <igDP:Field  Name="Value" Label="Val" Width="50" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Tag="Hide" />
+                    <igDP:Field  Name="ScarcityPerc" Label="PS %" Width="40" Format="##" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Tag="Hide"/>
+                    <igDP:Field  Name="Tier" Label="T" Width="30" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Tag="Hide"/>
+                    <igDP:Field  Name="DraftStatus" Label="Status" Width="75" CellValuePresenterStyle="{StaticResource CenterFieldText}" LabelTextAlignment="Center" Visibility="Collapsed" />
+                </igDP:FieldLayout>
+            </igDP:XamDataGrid.FieldLayouts>
+        </igDP:XamDataGrid>
+    </DockPanel>
+</UserControl>

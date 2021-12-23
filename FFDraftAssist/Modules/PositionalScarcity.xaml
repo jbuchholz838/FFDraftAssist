@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="FFDraftAssist.PositionalScarcity"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FFDraftAssist"
+             mc:Ignorable="d"
+             xmlns:ig="http://schemas.infragistics.com/xaml"
+             d:DesignHeight="148" d:DesignWidth="400">
+    <UserControl.Resources>
+        <Style TargetType="{x:Type ig:XamRadialGauge}">
+            <Setter Property="NeedleShape" Value="Needle" />
+            <Setter Property="BackingStrokeThickness" Value="2" />
+            <Setter Property="ScaleStartExtent" Value="0.45" />
+            <Setter Property="ScaleEndExtent" Value="0.52" />
+            <Setter Property="TickStartExtent" Value="0.45" />
+            <Setter Property="TickEndExtent" Value="0.52" />
+            <Setter Property="TickStrokeThickness" Value="1" />
+            <Setter Property="MinorTickStartExtent" Value="0.45" />
+            <Setter Property="MinorTickEndExtent" Value="0.50" />
+            <Setter Property="MinorTickStrokeThickness" Value="0" />
+            <Setter Property="BackingOuterExtent" Value="0.90" />
+            <Setter Property="LabelExtent" Value="0.70" />
+        </Style>
+    </UserControl.Resources>
+    <DockPanel>
+        <Label Content="Positional Scarcity" DockPanel.Dock="Top" FontSize="20" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="0,0,0,1" BorderBrush="Black" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <ig:XamRadialGauge x:Name="QBGauge" Grid.Column="0" Value="{Binding CurrentDraft.QBScarcity}" >
+                <ig:XamRadialGauge.Ranges>
+                    <ig:XamRadialGaugeRange StartValue="75" EndValue="100" Brush="#FF17FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="50" EndValue="75" Brush="#FFE8FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="25" EndValue="50" Brush="#FFFF9700"/>
+                    <ig:XamRadialGaugeRange StartValue="0" EndValue="25" Brush="Red"/>
+                </ig:XamRadialGauge.Ranges>
+            </ig:XamRadialGauge>
+            <ig:XamRadialGauge x:Name="RBGauge" Grid.Column="1" Value="{Binding CurrentDraft.RBScarcity}" >
+                <ig:XamRadialGauge.Ranges>
+                    <ig:XamRadialGaugeRange StartValue="75" EndValue="100" Brush="#FF17FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="50" EndValue="75" Brush="#FFE8FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="25" EndValue="50" Brush="#FFFF9700"/>
+                    <ig:XamRadialGaugeRange StartValue="0" EndValue="25" Brush="Red"/>
+                </ig:XamRadialGauge.Ranges>
+            </ig:XamRadialGauge>
+            <ig:XamRadialGauge x:Name="WRGauge" Grid.Column="2" Value="{Binding CurrentDraft.WRScarcity}" >
+                <ig:XamRadialGauge.Ranges>
+                    <ig:XamRadialGaugeRange StartValue="75" EndValue="100" Brush="#FF17FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="50" EndValue="75" Brush="#FFE8FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="25" EndValue="50" Brush="#FFFF9700"/>
+                    <ig:XamRadialGaugeRange StartValue="0" EndValue="25" Brush="Red"/>
+                </ig:XamRadialGauge.Ranges>
+            </ig:XamRadialGauge>
+            <ig:XamRadialGauge x:Name="TEGauge" Grid.Column="3" Value="{Binding CurrentDraft.TEScarcity}" >
+                <ig:XamRadialGauge.Ranges>
+                    <ig:XamRadialGaugeRange StartValue="75" EndValue="100" Brush="#FF17FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="50" EndValue="75" Brush="#FFE8FF00"/>
+                    <ig:XamRadialGaugeRange StartValue="25" EndValue="50" Brush="#FFFF9700"/>
+                    <ig:XamRadialGaugeRange StartValue="0" EndValue="25" Brush="Red"/>
+                </ig:XamRadialGauge.Ranges>
+            </ig:XamRadialGauge>
+            <Label Grid.Row="0" Grid.Column="0" Content="QB" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="1" Content="RB" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="2" Content="WR" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10" FontWeight="Bold" />
+            <Label Grid.Row="0" Grid.Column="3" Content="TE" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10" FontWeight="Bold" />
+        </Grid>
+    </DockPanel>
+</UserControl>
+
+    

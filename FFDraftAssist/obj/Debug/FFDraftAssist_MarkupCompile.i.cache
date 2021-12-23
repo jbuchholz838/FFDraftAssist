@@ -1,0 +1,20 @@
+﻿FFDraftAssist
+
+
+winexe
+C#
+.cs
+C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\
+FFDraftAssist
+none
+false
+DEBUG;TRACE
+C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\App.xaml
+14-2027739382
+
+291309374169
+34366724328
+Controls\TopPlayersList.xaml;MainWindow.xaml;Modules\Browser.xaml;Modules\DraftButton.xaml;Modules\DraftCenter.xaml;Modules\DraftWatcher.xaml;Modules\PlayerFocus.xaml;Modules\PlayerList.xaml;Modules\PositionalScarcity.xaml;Modules\RosterWatcher.xaml;Modules\SpreadsheetSetup.xaml;Modules\DraftBoard.xaml;Popups\DraftSetup.xaml;Popups\ManualDraft.xaml;
+
+False
+

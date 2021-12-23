@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="FFDraftAssist.PlayerFocus"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="80" d:DesignWidth="1300" Background="White">
+
+    <Canvas>
+        
+        <Label Content="{Binding CurrentPlayer.PlayerName}" FontWeight="Bold" FontSize="30" />
+        <Label Content="{Binding CurrentPlayer.PositionString}" Canvas.Left="30" Canvas.Top="42" FontSize="16"/>
+
+        <Label Content="{Binding CurrentPlayer.Bye}" Canvas.Left="350" Canvas.Top="10" Width="65" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="Bye Week" Canvas.Left="350" Canvas.Top="48" FontWeight="Bold" BorderThickness="0,1,0,0" BorderBrush="Black" Width="65" HorizontalContentAlignment="Center" />
+
+        <Label Content="{Binding CurrentPlayer.Rank}" Canvas.Left="450" Canvas.Top="10" Width="65" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="ADP" Canvas.Left="450" Canvas.Top="48" FontWeight="Bold" BorderThickness="0,1,0,0" BorderBrush="Black" Width="65" HorizontalContentAlignment="Center" />
+
+        <Label Content="{Binding CurrentPlayer.Value}" Canvas.Left="550" Canvas.Top="10" Width="65" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="Value" Canvas.Left="550" Canvas.Top="48" FontWeight="Bold" BorderThickness="0,1,0,0" BorderBrush="Black" Width="65" HorizontalContentAlignment="Center" />
+
+        <Label Content="{Binding CurrentPlayer.Tier}" Canvas.Left="650" Canvas.Top="10" Width="65" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="Tier" Canvas.Left="650" Canvas.Top="48" FontWeight="Bold" BorderThickness="0,1,0,0" BorderBrush="Black" Width="65" HorizontalContentAlignment="Center" />
+
+        <Label Content="{Binding CurrentPlayer.ScarcityPerc}" Canvas.Left="750" Canvas.Top="10" Width="65" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="Scarcity" Canvas.Left="750" Canvas.Top="48" FontWeight="Bold" BorderThickness="0,1,0,0" BorderBrush="Black" Width="65" HorizontalContentAlignment="Center" />
+
+        <Label Content="{Binding CurrentPlayer.Performance}" Canvas.Left="850" Canvas.Top="10" Width="95" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="{Binding CurrentPlayer.PerformanceKey}" Canvas.Left="850" Canvas.Top="48" FontWeight="Bold" BorderThickness="0,1,0,0" BorderBrush="Black" Width="95" HorizontalContentAlignment="Center" />
+        
+        <Label Content="{Binding CurrentPlayer.DraftStatus}" Canvas.Left="980" Canvas.Top="10" Width="130" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" />
+        <Label Content="Status" Canvas.Left="980" Canvas.Top="48" FontWeight="Bold" BorderThickness="0,1,0,0" BorderBrush="Black" Width="130" HorizontalContentAlignment="Center" />
+    </Canvas>
+</UserControl>

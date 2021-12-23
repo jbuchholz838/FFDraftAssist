@@ -1,0 +1,42 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:Custom="http://infragistics.com/Editors" xmlns:igDP="http://infragistics.com/DataPresenter" x:Class="FFDraftAssist.DraftSetup"
+        Title="DraftSetup" Height="389" Width="571" WindowStartupLocation="CenterScreen">
+    <Canvas>
+
+        <Label x:Name="lblDraftName" Content="Draft Name" Canvas.Left="25" Canvas.Top="31" FontWeight="Bold"/>
+        <Custom:XamTextEditor x:Name="txtDraftName" Canvas.Left="106" Margin="0" Canvas.Top="35" Width="447" NullText="New Draft" Value="{Binding DraftName}"/>
+
+        <Label x:Name="lblDraftType" Content="Draft Type" Canvas.Left="31" Canvas.Top="62" FontWeight="Bold"/>
+        <ComboBox x:Name="cboDraftType" Width="120" Canvas.Left="106" Canvas.Top="66" Text="{Binding DraftType}">
+            <ComboBoxItem Content="Snake"/>
+            <ComboBoxItem Content="Linear"/>
+        </ComboBox>
+        <Label x:Name="lblNumRounds" Content="Num Rounds" Canvas.Left="18" Canvas.Top="93" FontWeight="Bold"/>
+        <Custom:XamNumericEditor x:Name="txtNumRounds" Canvas.Left="106" Margin="0" Canvas.Top="97" Width="120" Value="{Binding DraftRounds}" ValueType="{x:Type sys:Int32}"/>
+
+        <igDP:XamDataGrid x:Name="grdTeams" Canvas.Left="240" Canvas.Top="66" Height="249" Width="313" DataSource="{Binding Teams}">
+            <igDP:XamDataGrid.FieldSettings>
+                <igDP:FieldSettings AllowRecordFiltering="False" AllowEdit="True" CellClickAction="SelectRecord"/>
+            </igDP:XamDataGrid.FieldSettings>
+            <igDP:XamDataGrid.FieldLayoutSettings>
+                <igDP:FieldLayoutSettings HighlightAlternateRecords="True" AutoGenerateFields="False" AllowAddNew="True" AllowDelete="True" FilterUIType="FilterRecord" AllowFieldMoving="No" AddNewRecordLocation="OnBottom" />
+            </igDP:XamDataGrid.FieldLayoutSettings>
+            <igDP:XamDataGrid.FieldLayouts>
+                <igDP:FieldLayout x:Name="grdFieldLayout">
+                    <igDP:Field  Name="PickOrder" Label="Pick" Width="45" />
+                    <igDP:Field  Name="TeamName" Label="Team Name" Width="150" />
+                    <igDP:Field  Name="UserName" Label="Manager Name" Width="75" />
+                </igDP:FieldLayout>
+            </igDP:XamDataGrid.FieldLayouts>
+        </igDP:XamDataGrid>
+
+        <Button x:Name="btnStart" Content="Start Draft" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Click="btnStart_Click" Canvas.Left="240" Canvas.Top="328"/>
+        <Button x:Name="btnLUM" Content="LUM Draft" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Canvas.Left="10" Canvas.Top="293" Click="btnLUM_Click" Height="55"/>
+        <Button x:Name="btnVampire" Content="Vampire Draft" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Canvas.Left="132" Canvas.Top="293" Click="btnVampire_Click" Height="55"/>
+        <Button x:Name="btnSchutte" Content="Schutte Draft" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Canvas.Left="26" Canvas.Top="278" Click="btnSchutte_Click" Visibility="Collapsed"/>
+
+    </Canvas>
+</Window>

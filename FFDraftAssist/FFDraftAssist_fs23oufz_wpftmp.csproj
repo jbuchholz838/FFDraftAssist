@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F07BFD95-4A8F-4CEB-BF38-6F1B8F79E838}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FFDraftAssist</RootNamespace>
+    <AssemblyName>FFDraftAssist</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Draft.cs" />
+    <Compile Include="Classes\DraftPick.cs" />
+    <Compile Include="Classes\ObservableDictionary.cs" />
+    <Compile Include="Classes\Player.cs" />
+    <Compile Include="Classes\PlayerRankings.cs" />
+    <Compile Include="Classes\Spreadsheet.cs" />
+    <Compile Include="Classes\Team.cs" />
+    <Compile Include="Controls\TopPlayersList.xaml.cs">
+      <DependentUpon>TopPlayersList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\NumberEvenOddConverter.cs" />
+    <Compile Include="FFViewModel.cs" />
+    <Compile Include="Modules\Browser.xaml.cs">
+      <DependentUpon>Browser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\DraftButton.xaml.cs">
+      <DependentUpon>DraftButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\DraftCenter.xaml.cs">
+      <DependentUpon>DraftCenter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\DraftWatcher.xaml.cs">
+      <DependentUpon>DraftWatcher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PlayerFocus.xaml.cs">
+      <DependentUpon>PlayerFocus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PlayerList.xaml.cs">
+      <DependentUpon>PlayerList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\RosterWatcher.xaml.cs">
+      <DependentUpon>RosterWatcher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SpreadsheetSetup.xaml.cs">
+      <DependentUpon>SpreadsheetSetup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modules\DraftBoard.xaml.cs">
+      <DependentUpon>DraftBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\DraftSetup.xaml.cs">
+      <DependentUpon>DraftSetup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\ManualDraft.xaml.cs">
+      <DependentUpon>ManualDraft.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\DashboardWPF\DashboardWPF\bin\Debug\DashboardWPF.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.DataManager.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.DataPresenter.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.DockManager.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Documents.Core.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Documents.Excel.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Editors.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Ribbon.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.Undo.v19.1.dll" />
+    <ReferencePath Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Debug\InfragisticsWPF4.v19.1.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\PresentationCore.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\PresentationFramework.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xaml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\UIAutomationProvider.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\UIAutomationTypes.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WindowsBase.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Controls\TopPlayersList.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\Browser.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\DraftButton.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\DraftCenter.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\DraftWatcher.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\PlayerFocus.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\PlayerList.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\RosterWatcher.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\SpreadsheetSetup.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Modules\DraftBoard.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Popups\DraftSetup.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\Popups\ManualDraft.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\App.g.cs" />
+    <Compile Include="D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Debug\GeneratedInternalTypeHelper.g.cs" />
+  </ItemGroup>
+</Project>

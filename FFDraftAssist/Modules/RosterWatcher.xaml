@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="FFDraftAssist.RosterWatcher"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FFDraftAssist"
+             xmlns:ig="http://schemas.infragistics.com/xaml"
+             xmlns:igDP="http://infragistics.com/DataPresenter"
+             xmlns:igWindows="http://infragistics.com/Windows"
+             mc:Ignorable="d" x:Name="RosterWatcherControl"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:MyCustomSort x:Key="MyCustomSort" />
+    </UserControl.Resources>
+    <DockPanel>
+        <ComboBox x:Name="cboSearch" DockPanel.Dock="Top" Text="Select..." Padding="5" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding CurrentDraft.Teams}" DisplayMemberPath="TeamName" SelectedValuePath="TeamName" IsEditable="False" SelectionChanged="cboSearch_SelectionChanged" />
+        
+        <!-- ROSTER SUMMARY -->
+        <igDP:XamDataGrid x:Name="RosterSummaryGrid" DockPanel.Dock="Bottom" Height="310" DataSource="{Binding CurrentDraft.RosterSummary}" GroupByAreaLocation="None" InitializeRecord="XamDataGrid_InitializeRecord" FontSize="{Binding FontSize, ElementName=RosterWatcherControl}" >
+            <igDP:XamDataGrid.FieldLayoutSettings>
+                <igDP:FieldLayoutSettings HighlightAlternateRecords="True" AutoGenerateFields="False" AllowAddNew="False" AutoFitMode="Always" AllowDelete="False" AllowFieldMoving="No" RecordSelectorLocation="None" />
+            </igDP:XamDataGrid.FieldLayoutSettings>
+
+            <igDP:XamDataGrid.FieldLayouts>
+                <igDP:FieldLayout x:Name="grdSummaryFieldLayout">
+                    <igDP:FieldLayout.SortedFields>
+                        <igDP:FieldSortDescription FieldName="Key" IsGroupBy="False" Direction="Ascending" />
+                    </igDP:FieldLayout.SortedFields>
+
+                    <igDP:Field Name="Key" Label="Spot" Width="75">
+                        <igDP:Field.Settings>
+                            <igDP:FieldSettings x:Name="SummarySpotFieldSettings" SortComparer="{StaticResource MyCustomSort}" CellHeight="24"/>
+                        </igDP:Field.Settings>
+                    </igDP:Field>
+
+                    <igDP:Field Name="Value" Label="# Drafted" Width="50" HorizontalContentAlignment="Center" />
+
+                    <!--<igDP:Field Label="Player" AlternateBinding="{Binding Path=Value.PlayerPicked.PlayerName}" Width="160"/>
+                    <igDP:Field Label="Bye" AlternateBinding="{Binding Path=Value.PlayerPicked.Bye}" Width="80" Visibility="Collapsed"/>-->
+
+                </igDP:FieldLayout>
+            </igDP:XamDataGrid.FieldLayouts>
+        </igDP:XamDataGrid>
+        
+        <!-- ROSTER WATCHER -->
+        <igDP:XamDataGrid x:Name="RosterGrid" DataSource="{Binding SelectedItem.Roster, ElementName=cboSearch}" GroupByAreaLocation="None" InitializeRecord="XamDataGrid_InitializeRecord" FontSize="{Binding FontSize, ElementName=RosterWatcherControl}" BorderBrush="Black" BorderThickness="0,0,0,2">
+            <igDP:XamDataGrid.FieldLayoutSettings>
+                <igDP:FieldLayoutSettings HighlightAlternateRecords="True" AutoGenerateFields="False" AllowAddNew="False" AutoFitMode="Always" AllowDelete="False" AllowFieldMoving="No" RecordSelectorLocation="None" />
+            </igDP:XamDataGrid.FieldLayoutSettings>
+
+            <igDP:XamDataGrid.FieldLayouts>
+                <igDP:FieldLayout x:Name="grdFieldLayout">
+                    <igDP:FieldLayout.SortedFields>
+                        <igDP:FieldSortDescription FieldName="Key" IsGroupBy="False" Direction="Ascending" />
+                    </igDP:FieldLayout.SortedFields>
+                    
+                    <igDP:Field Name="Key" Label="Spot" Width="100">
+                        <igDP:Field.Settings>
+                            <igDP:FieldSettings x:Name="RosterSpotFieldSettings" SortComparer="{StaticResource MyCustomSort}" CellHeight="24"/>
+                        </igDP:Field.Settings>
+                    </igDP:Field>
+
+                    <igDP:Field Label="Player" AlternateBinding="{Binding Path=Value.PlayerPicked.PlayerName}" Width="160"/>
+                    <igDP:Field Label="Bye" AlternateBinding="{Binding Path=Value.PlayerPicked.Bye}" Width="80" Visibility="Collapsed"/>
+                    
+                </igDP:FieldLayout>
+            </igDP:XamDataGrid.FieldLayouts>
+        </igDP:XamDataGrid>
+    </DockPanel>
+</UserControl>
