@@ -12,6 +12,7 @@
 using Infragistics;
 using Infragistics.Controls;
 using Infragistics.Controls.Editors;
+using Infragistics.Controls.Gauges;
 using Infragistics.Controls.Grids;
 using Infragistics.Controls.Interactions;
 using Infragistics.Controls.Layouts;

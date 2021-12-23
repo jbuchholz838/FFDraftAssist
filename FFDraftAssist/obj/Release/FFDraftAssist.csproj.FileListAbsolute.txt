@@ -1,225 +1,123 @@
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.exe.config
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.exe
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.pdb
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\DashboardWPF.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\DocumentFormat.OpenXml.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataPresenter.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DockManager.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Core.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Excel.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Editors.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Ribbon.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Undo.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataVisualization.v19.1.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Undo.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Ribbon.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Editors.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Excel.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Core.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DockManager.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataPresenter.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\DashboardWPF.pdb
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataVisualization.v19.1.xml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Undo.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Undo.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Undo.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Ribbon.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Ribbon.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Ribbon.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Editors.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Editors.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Editors.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DockManager.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DockManager.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DockManager.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csprojAssemblyReference.cache
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Controls\TopPlayersList.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\MainWindow.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\Browser.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftButton.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftWatcher.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerFocus.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\SpreadsheetSetup.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftBoard.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\DraftSetup.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\ManualDraft.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Controls\TopPlayersList.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\MainWindow.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\Browser.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftButton.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftCenter.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftWatcher.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerFocus.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerList.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\SpreadsheetSetup.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftBoard.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\DraftSetup.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\ManualDraft.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\App.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\GeneratedInternalTypeHelper.g.cs
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist_MarkupCompile.cache
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist_MarkupCompile.lref
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftCenter.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerList.baml
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.g.resources
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.Properties.Resources.resources
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.GenerateResource.cache
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.exe.licenses
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.CoreCompileInputs.cache
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.CopyComplete
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.exe
-D:\Users\jbuch\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.pdb
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.exe.config
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.exe
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.pdb
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\DashboardWPF.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\DocumentFormat.OpenXml.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataManager.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataPresenter.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DockManager.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Core.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Excel.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Editors.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Ribbon.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Undo.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataVisualization.v19.1.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataManager.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataPresenter.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DockManager.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Core.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Excel.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Editors.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Ribbon.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Undo.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\DashboardWPF.pdb
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataVisualization.v19.1.xml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DockManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DockManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DockManager.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Editors.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Editors.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Editors.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Ribbon.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Ribbon.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Ribbon.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Undo.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Undo.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Undo.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Controls\TopPlayersList.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\MainWindow.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\Browser.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftButton.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftWatcher.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerFocus.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\SpreadsheetSetup.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftBoard.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\DraftSetup.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\ManualDraft.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Controls\TopPlayersList.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\MainWindow.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\Browser.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftButton.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftCenter.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftWatcher.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerFocus.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerList.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\SpreadsheetSetup.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftBoard.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\DraftSetup.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Popups\ManualDraft.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\App.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\GeneratedInternalTypeHelper.g.cs
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist_MarkupCompile.cache
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist_MarkupCompile.lref
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftCenter.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerList.baml
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.g.resources
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.Properties.Resources.resources
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.GenerateResource.cache
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.exe.licenses
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.CoreCompileInputs.cache
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.CopyComplete
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.exe
-C:\Users\jbuchholz\Dropbox\Software Development\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.pdb
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Controls\TopPlayersList.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\MainWindow.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\Browser.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftButton.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftWatcher.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerFocus.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\SpreadsheetSetup.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Popups\DraftSetup.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Popups\ManualDraft.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Controls\TopPlayersList.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\MainWindow.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\Browser.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftButton.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftCenter.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftWatcher.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerFocus.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerList.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PositionalScarcity.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\RosterWatcher.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\SpreadsheetSetup.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftBoard.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Popups\DraftSetup.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Popups\ManualDraft.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\App.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist_MarkupCompile.cache
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist_MarkupCompile.lref
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.exe.config
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.exe
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\FFDraftAssist.pdb
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\DocumentFormat.OpenXml.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\FontAwesome.WPF.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Gauges.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataManager.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataPresenter.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DockManager.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Core.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Excel.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Editors.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Ribbon.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Undo.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataVisualization.v19.1.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\FontAwesome.WPF.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Undo.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Ribbon.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Editors.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Excel.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Documents.Core.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DockManager.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataPresenter.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataManager.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Gauges.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\InfragisticsWPF4.DataVisualization.v19.1.xml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Editors.XamComboEditor.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Undo.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Undo.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Undo.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Ribbon.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Ribbon.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Ribbon.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Editors.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Editors.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Editors.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Documents.Excel.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Documents.Core.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DockManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DockManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DockManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataPresenter.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Menus.XamMenu.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Layouts.XamTileManager.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Grids.XamSpreadsheet.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.Controls.Editors.XamMaskedInput.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\de\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\es\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\bin\Release\fr\InfragisticsWPF4.DataVisualization.v19.1.resources.dll
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftCenter.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PlayerList.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\PositionalScarcity.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\RosterWatcher.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\Modules\DraftBoard.baml
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.g.resources
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.Properties.Resources.resources
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.GenerateResource.cache
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.exe.licenses
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.CoreCompileInputs.cache
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.csproj.CopyComplete
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.exe
+D:\Users\jbuch\Documents\GitHub\FFDraftAssist\FFDraftAssist\obj\Release\FFDraftAssist.pdb
